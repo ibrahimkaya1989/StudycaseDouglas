@@ -1,0 +1,36 @@
+{
+  "pages": [
+    {
+      "pageInfo": {
+        "pageName": "parfum",
+        "parent": "common",
+        "waitelement": ""
+      },
+      "elements": [
+        {
+          "logo": "//*[contains(@class, 'logo') and @href='/de']"
+        },
+        {
+          "produktart": "//*[text()='Produktart']"
+        },
+        {
+          "marke": "//*[text()='Marke']"
+        },
+        {
+          "fur wen": "//*[text()='Für Wen']"
+        },
+        {
+          "geschenk fur": "//*[text()='Geschenk für']"
+        },
+        {
+          "schliessen": "//button[text()='Schliessen']"
+        },
+        {
+          "close survey": "//button[contains(@class, 'survey')]"
+        }
+      ]
+    }
+  ]
+}
+
+

@@ -1,0 +1,21 @@
+{
+  "pages": [
+    {
+      "pageInfo": {
+        "pageName": "common",
+        "parent": "",
+        "waitelement": ""
+      },
+      "elements": [
+        {
+          "dialog": "//*[@role='dialog']"
+        },
+        {
+          "dialog button": "//*[@role='dialog']//button"
+        }
+      ]
+    }
+  ]
+}
+
+

@@ -1,0 +1,13 @@
+#files
+/.idea/
+/target/
+/Reports/
+/allure-report/
+/allure-results/
+/extend-report/
+/logs/
+
+#extensions
+.classpath
+.project
+.log

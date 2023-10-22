@@ -1,0 +1,27 @@
+{
+  "pages": [
+    {
+      "pageInfo": {
+        "pageName": "home",
+        "parent": "login",
+        "waitelement": ""
+      },
+      "elements": [
+        {
+          "logo area": "//*[contains(@class, 'logo') and @href='/de']"
+        },
+        {
+          "search input": "//*[@id='typeAhead-input']"
+        },
+        {
+          "parfum tab": "//*[contains(@href,'de/c/parfum/01')]"
+        },
+        {
+          "close survey button": "//button[contains(@class, 'survey')]"
+        }
+      ]
+    }
+  ]
+}
+
+

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Douglas Test Automation Suite">
+
+	<!-- Listeners -->
+	<listeners>
+		<listener class-name="listeners.ParameterListener"/>
+		<listener class-name="listeners.TestStepListener"/>
+	</listeners>
+
+	<!-- Jenkins Parameters -->
+	<parameter name="URL" value="https://www.douglas.de/de"/>
+	<parameter name="browserName" value="chrome"/>
+
+	<!-- Cucumber Test -->
+	<test name="Testing on Chrome Browser" enabled="true">
+		<parameter name="browserName" value="chrome"/>
+		<classes>
+			<class name="runners.ChromeTestRunner"/>
+		</classes>
+	</test>
+
+	<test name="Testing on Firefox Browser" enabled="false">
+		<parameter name="browserName" value="firefox"/>
+		<classes>
+			<class name="runners.FirefoxTestRunner"/>
+		</classes>
+	</test>
+
+	<test name="Testing on Opera Browser" enabled="false">
+		<parameter name="browserName" value="opera"/>
+		<classes>
+			<class name="runners.OperaTestRunner"/>
+		</classes>
+	</test>
+
+	<test name="Testing on Edge Edge" enabled="false">
+		<parameter name="browserName" value="edge"/>
+		<classes>
+			<class name="runners.EdgeTestRunner"/>
+		</classes>
+	</test>
+
+</suite>
